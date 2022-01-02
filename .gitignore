@@ -1,6 +1,6 @@
 
-# Created by https://www.toptal.com/developers/gitignore/api/visualstudio,visualstudiocode,csharp,node,go,macos
-# Edit at https://www.toptal.com/developers/gitignore?templates=visualstudio,visualstudiocode,csharp,node,go,macos
+# Created by https://www.toptal.com/developers/gitignore/api/macos,visualstudio,visualstudiocode,go,node,csharp
+# Edit at https://www.toptal.com/developers/gitignore?templates=macos,visualstudio,visualstudiocode,go,node,csharp
 
 ### Csharp ###
 ## Ignore Visual Studio temporary files, build results, and
@@ -212,7 +212,7 @@ PublishScripts/
 *.nuget.targets
 
 # Nuget personal access tokens and Credentials
-nuget.config
+# nuget.config
 
 # Microsoft Azure Build Output
 csx/
@@ -372,7 +372,6 @@ FodyWeavers.xsd
 
 # VS Code files for those working on multiple tools
 .vscode/*
-*/.vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
@@ -561,6 +560,16 @@ dist
 .yarn/install-state.gz
 .pnp.*
 
+### Node Patch ###
+# Serverless Webpack directories
+.webpack/
+
+# Optional stylelint cache
+.stylelintcache
+
+# SvelteKit build / generate output
+.svelte-kit
+
 ### VisualStudioCode ###
 
 # Local History for Visual Studio Code
@@ -569,6 +578,9 @@ dist
 # Ignore all local history of files
 .history
 .ionide
+
+# Support for Project snippet scope
+!.vscode/*.code-snippets
 
 ### VisualStudio ###
 
@@ -653,6 +665,7 @@ dist
 # NuGet v3's project.json files produces more ignorable files
 
 # Nuget personal access tokens and Credentials
+# nuget.config
 
 # Microsoft Azure Build Output
 
@@ -745,4 +758,4 @@ dist
 ### VisualStudio Patch ###
 # Additional files built by Visual Studio
 
-# End of https://www.toptal.com/developers/gitignore/api/visualstudio,visualstudiocode,csharp,node,go,macos
+# End of https://www.toptal.com/developers/gitignore/api/macos,visualstudio,visualstudiocode,go,node,csharp
