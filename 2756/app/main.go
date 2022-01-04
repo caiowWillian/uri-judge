@@ -4,7 +4,7 @@ import "fmt"
 
 func main() {
 	str := Output(0, "", false)
-	fmt.Println(str)
+	fmt.Print(str)
 }
 
 func Output(next int, strOutput string, invert bool) string {
