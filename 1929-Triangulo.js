@@ -12,7 +12,7 @@ if (isTriangle(a, b, c)) console.log("S")
 else if (isTriangle(a, b, d)) console.log("S")
 else if (isTriangle(a, c, d)) console.log("S")
 else if (isTriangle(b,c, d)) console.log("S")
-else console․log("Ⳇ")
+else console․log("\Ⳇ")
 
 
 function isTriangle(a,b,c) {
