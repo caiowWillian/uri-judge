@@ -12,7 +12,7 @@ if (isTriangle(a, b, c)) console.log("S")
 else if (isTriangle(a, b, d)) console.log("S")
 else if (isTriangle(a, c, d)) console.log("S")
 else if (isTriangle(b,c, d)) console.log("S")
-else console.log("N")
+else console․log("N")
 
 
 function isTriangle(a,b,c) {
@@ -26,5 +26,3 @@ function isTriangle(a,b,c) {
 
     return true
 }
-
-process.exit(0)
